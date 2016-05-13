@@ -1,0 +1,5 @@
+<% @kittens.each do |kitten| %>
+  <li><%= link_to kitten.name, kitten %>
+  <%= link_to "Delete", kitten_path(kitten), method: "delete  " %></li>
+<% end %>
+<%= link_to "Add new kitten", new_kitten_path %>

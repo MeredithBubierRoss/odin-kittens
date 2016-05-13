@@ -1,0 +1,4 @@
+== README
+
+An Odin Project practice a writing my own API as practice for use in other
+projects.
