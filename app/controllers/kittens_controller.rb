@@ -1,6 +1,7 @@
 class KittensController < ApplicationController
   def index
     @kittens = Kitten.all
+    @kittens.as_json
   end
 
   def show
